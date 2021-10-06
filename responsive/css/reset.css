@@ -1,3 +1,5 @@
+/* 필터 이펙트, 비디오, 사이드 */
+
 /* 전체 메뉴 */
 
 /* 여백 초기화 */
@@ -18,6 +20,24 @@ ul, li, ol {list-style: none;}
 
 /* 제목 태그 초기화 */
 h1, h2, h3, h4, h5, h6 {font-size: 13px; font-weight: normal;}
+
+/* 버튼 초기화 */
+button { border: 0; }
+
+/* 반응형 이미지 */
+img, video { width: 100%; }
+
+/* clearfix */
+.clearfix { *zoom:1; }
+.clearfix:before, .clearfix:after {
+    display: block;
+    content: '';
+    line-height: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+
 
 /* IR 효과 */
 .ir_pm {
